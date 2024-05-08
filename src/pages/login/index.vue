@@ -2,12 +2,12 @@
 <template>
   <div class="loginWrapper fx-fd-col fx-sb">
     <video autoplay loop muted="" preload class="loginVideo">
-      <source src="@/assets/login.mp4" type="video/mp4">
+      <source src="@/assets/login2.mp4" type="video/mp4">
      </video>
     <div class="fx-1 fx-al-ct">
       <div class="login">
         <div class="title">
-          <img src="@/assets/logo.png" alt="" width="198" height="60" srcset="">
+          <img src="@/assets/logo111.png" alt="" width="198" height="60" srcset="">
         </div>
         <LoginPass v-if="act == 'pass'"></LoginPass>
       </div>
